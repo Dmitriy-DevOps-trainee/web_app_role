@@ -11,6 +11,7 @@
 - name: Pull an image with web-app
   docker_image:
     name: dimitrii89/exam-images:web-app-latest
+    source: pull
 
 - name: Run 3 docker containers with web-app on different ports
   docker_container:
